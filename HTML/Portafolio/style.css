@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;60;700;800&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+:root {
+    --main: #88FF08;
+    --bg: #030302;
+    --bg-accent: #191919;
+    --font: #EFEFEF;
+}
+.dark-mode:root{
+    --main: #888;
+    --bg: #032;
+    --bg-accent: #199;
+    --font: #EEF;
+}
+
+body{
+    background-color: var(--bg);
+    position: relative;
+}
+.menu{
+    width: 72%;
+    margin: auto;
+}
+header {
+    position: relative;
+    height: 70px;
+}
+
+header h3 {
+    font-size: 1.5rem;
+    color: #FFF;
+    position: absolute;
+    top: 20px;
+}
+
+header h3 small {
+    color: var(--main);
+    font-size: .8rem;
+}
+
+header ul {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+
+header li {
+    margin-left: 3.6rem;
+}
+
+a{
+    color: var(--font);
+}
+
+header li a {
+    font-size: .85rem;
+}
+ /* Hero */
+
+.hero{
+    min-height: 80vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.hero h1{
+    color: var(--main);
+    font-weight: 800;
+    font-size: 4.3rem;
+    line-height: 5.5rem;
+    margin-bottom: 2rem;
+    position: absolute;
+    left: 15rem;
+    top: 5rem;
+}
+
+.pdf{
+    border: 3px solid var(--main);
+    padding: .45rem 1rem;
+    font-size: .85rem;
+    text-transform: uppercase;
+    position: absolute;
+    left: 15rem;
+    top: 20rem;
+}
+
+img{
+    position: absolute;
+    bottom: 0rem;
+    right: 0rem;
+}
+
+/* Divisor */
+
+.page-divid {
+    height: 80px;
+    position: relative;
+    margin: 1rem 0rem;
+}
+
+.divid{
+    width: 5px;
+    height: 80px;
+    background: var(--main);
+    position: absolute;
+    right: 720px;
+    bottom: -20px;
+}
+.divid-line{
+    position: absolute;
+    width: 50%;
+    border: 1px dashed var(--font);
+    right: 0;
+}
