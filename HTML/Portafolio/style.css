@@ -116,11 +116,104 @@ img{
     background: var(--main);
     position: absolute;
     right: 720px;
-    bottom: -20px;
+    bottom: 20px;
 }
-.divid-line{
+.right{
     position: absolute;
     width: 50%;
     border: 1px dashed var(--font);
     right: 0;
+}
+.left{
+    position: absolute;
+    width: 50%;
+    border: 1px dashed var(--font);
+    left: 0;
+}
+/* Main Skills */
+
+section {
+    padding: 1rem 0rem;
+    margin-bottom: 2rem;
+}
+.section-title{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.section-title h1{
+    color: var(--font);
+    letter-spacing: 2px;
+    line-height: 3rem;
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+.section-title small{
+    font-size: .8rem;
+    color: #888;
+}
+
+.skills-wrapper{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+.skill {
+    margin: 1rem 3rem ;
+}
+.skill p{
+    color: var(--font);
+    clear: both;
+    padding-left: 1.3rem;
+    padding-top: .5rem;
+}
+
+/* Portafolio */
+
+.portafolio-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2.5rem;
+    position: relative;
+    margin-bottom: 3rem;
+}
+.bg-wrap{
+    height: 210px;
+    width: 210px;
+    background: var(--main);
+    position: absolute;
+    z-index: -10;
+}
+.bg-wrap.left{
+    top: -10px;
+    left: -10px;
+}
+.bg-wrap.right{
+    bottom: -10px;
+    right: -10px;
+}
+.portafolio{
+    background: var(--bg-accent);
+    padding: 1.5rem;
+    text-align: center;
+    position: relative;
+    z-index: 50px;
+}
+.portafolio h3 {
+    color: #FFF;
+    margin-bottom: .5rem;
+    font-weight: 600;
+}
+.portafolio small{
+    color: var(--font);
+}
+.portafolio div{
+    height: 250px;
+    margin-top: 1.3rem;
+    border-radius: 3px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
