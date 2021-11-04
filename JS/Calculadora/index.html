@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Caluladora</title>
+</head>
+<body>
+
+    <div>
+        <div>
+          <h1>CALCULADORA</h1>
+          <p>Recode 2021</p>
+        </div>
+      </div>
+
+    <div class="geral">
+        <div>
+            <div class="inputs">
+              <label for="primeiraVariavel">Primeira variavel</label>
+              <input type="number" class="form-control" name="primeiraVariavel" aria-describedby="info" placeholder="0" id="primeiraVariavel" required>
+            </div>
+            <div class="inputs" >
+              <label for="segundaVariavel">Segunda variavel</label>
+              <input type="number" class="form-control" name="segundaVariavel" aria-describedby="info" placeholder="0" id="segundaVariavel" required >
+            </div>  
+        </div>
+
+        <div class="menu">
+            <!-- Example single danger button -->
+            <div>
+              <select id = "myList" onchange="operacoesElementais()">
+              <option>Escolha uma operação</option> 
+              <option id="adicao">Adição</option>
+              <option id="subtracao">Substração</option>
+              <option id="multiplicacao">Multiplicação</option>
+              <option id="divisao">Divisão</option>
+            </select>
+            </div>
+            
+            <div>
+              <button type="submit" onclick="cacular()">CALCULAR</button>
+            </div>
+        </div>
+
+        <div class="resultadoOperacao ">
+          <div>
+            <h5>Resultado da...<input class="inputOperacion" type = "text" id = "operacao" ></h5> 
+          </div>
+          <div class="resultado" id="resultado">omar</div>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

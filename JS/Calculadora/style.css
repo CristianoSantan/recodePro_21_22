@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.geral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px
+}
+.inputs {
+
+    padding: 5px;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu > div {
+    
+    margin: 15px;
+    line-height: 50px;
+    font-size: 32px;
+}
+
+.resultadoOperacao{
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resultado{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
