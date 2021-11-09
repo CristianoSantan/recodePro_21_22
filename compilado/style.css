@@ -1,0 +1,33 @@
+body {
+  width: 100vw;
+  height: 1200px;
+  background-color: rosybrown;
+  overflow-x: hidden;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.card {
+  width: 200px;
+  height: 300px;
+  text-align: center;
+  padding: 10px;
+  margin: 40px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+button {
+  width: 90%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.5);
+}
