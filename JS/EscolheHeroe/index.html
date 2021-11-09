@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EscolhaHeroe</title>
+</head>
+<body>
+    <div class="main">
+        <h1>Apelidos</h1>
+
+        <img src="./img/SuperHeroe.png" alt="Que heroe é" id="img">
+        
+        <div class="escolhas">
+            <label for="">
+                <input type="radio" name="heroe" id="fg">
+                <p>Flash Gordon</p> 
+            </label>
+            <label for="">
+                <input type="radio" name="heroe" id="vt">
+                <p>Velhote</p> 
+            </label> 
+        </div> 
+        <button class="btn" onclick="trocar()">Quem é</button>  
+    </div>
+    <script>
+        function trocar(){
+            let img = document.getElementById('img');
+            let fg = document.getElementById('fg');
+            let vt = document.getElementById('vt')
+
+            if(fg.checked){
+                img.src = 'img/piter.jpeg'
+                img.style = 'border-radius: 32px'
+            }
+            else if(vt.checked){
+                img.src = 'img/capi.jpg'
+            }
+        }
+    </script>
+</body>
+</html>

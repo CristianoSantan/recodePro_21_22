@@ -15,10 +15,11 @@
     --bg-accent: #191919;
     --font: #EFEFEF;
 }
+
 .dark-mode:root{
     --main: #888;
     --bg: #032;
-    --bg-accent: #199;
+    --bg-accent: red;
     --font: #EEF;
 }
 
