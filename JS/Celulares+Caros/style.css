@@ -1,0 +1,16 @@
+.dados-invalidos{
+    background-color: lightcoral;
+}
+.lista-erros{
+    list-style-type: none;
+    color: brown;
+}
+
+.efeito-desaparece{
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.invisivel{
+    display: none;
+}

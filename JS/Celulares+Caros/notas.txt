@@ -1,0 +1,4 @@
+VALIDAR OS DADOS DE ENTRADA 
+DO FORMULARIO
+
+no script.js trabalhamos nossos validadores de preco e desconto.

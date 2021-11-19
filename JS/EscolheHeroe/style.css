@@ -19,6 +19,9 @@ body{
 }
 h1{
     text-align: center;
+    margin: 20px auto;
+    color: #1a1c20;
+    font-size: 50px;
 }
 
 img{
@@ -36,6 +39,7 @@ img{
 
 p{
     color: rgb(201, 181, 181);
+    font-size: 15px;
 }
 label{
     margin: 0px 12px;
